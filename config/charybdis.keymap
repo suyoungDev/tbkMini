@@ -10,13 +10,6 @@
 #define FN  2
 #define HOTKEY  3
 
-&mt {
-    tapping-term-ms = <190>;
-    quick-tap-ms = <130>;
-    flavor = "tap-preferred";
-    hold-trigger-on-release;
-};
-
 / {
     combos {
         compatible = "zmk,combos";
